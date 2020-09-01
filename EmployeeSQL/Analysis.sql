@@ -62,4 +62,4 @@ WHERE dept_name = 'Sales' OR dept_name = 'Development'
 --Count source: https://www.w3schools.com/sql/sql_count_avg_sum.asp
 SELECT last_name, COUNT(last_name) FROM employees
 GROUP BY last_name
-ORDER BY COUNT(last_name) desc;
+ORDER BY COUNT(last_name) DESC;
